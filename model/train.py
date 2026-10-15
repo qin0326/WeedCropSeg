@@ -7,7 +7,7 @@ import torch.optim
 import torch.utils.data
 from torch.utils.tensorboard import SummaryWriter
 from BPlantSeg import get_multimodal_datasets
-from Bmodel3DiWT2319_decoder import MultiModalCKD2D
+from model import MultiModalCKD2D
 from utils import mkdir, save_best_model, AverageMeter, save_checkpoint
 from torch.backends import cudnn
 import matplotlib
